@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+nav {
+width: 70%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+li{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: 0.5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover{
+    color: #d2161d;
+}
+
+#logo2{
+    width: 120px;
+    height: auto;
+}
+
+.Pai{  
+    background-color: aliceblue;
+    width: 100%;
+    height: 92px;
+    margin-top: 50px;
+}
+
+.filho{
+    background-color: aliceblue;
+    color: #d2161d;
+    margin-top: 100px;
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.filho:hover{
+    transition: 0.5s;
+    color: black;
+}
+
+.container{
+    background-color: aliceblue;
+    width: 50%;
+    height: 100px;
+    margin-top: 50px;
+    margin: auto;
+    border-radius: 25px;
+    
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    color: #d2161d;
+    background-color: aliceblue;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    height: 20px;
+}
+
+footer{
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#logoa{
+    height: 120px;
+    width: auto;
+}
+
+span{
+    color: #fff;
+    font-family:'Kdam Thmor Pro', sans-serif;
+
+}
+
+.footer-nav{
+    display: none;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px) {
+    .footer-nav {
+        display: block;
+    }
+    
+    nav {
+        display: none;
+    }
+
+    .container{
+        width: 315px;
+        
+    }
+
+    .Pai{
+        margin-top: 35%;
+    }
+
+}
+
+
+   
+
+    
