@@ -5,6 +5,7 @@
     padding: 0;
     background-color: black;
     list-style: none;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -69,8 +70,8 @@ li:hover{
 .container{
     background-color: aliceblue;
     width: 50%;
-    height: 100px;
-    margin-top: 50px;
+    height: 50px;
+    margin-top: 10px;
     margin: auto;
     border-radius: 25px;
     
@@ -118,7 +119,27 @@ span{
     align-items: center;
 }
 
-@media(max-width: 768px) {
+.social-media{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    margin-top: 25px
+    
+    
+}
+
+i{
+    font-size: 20px;
+}
+
+i:hover{
+    color: #d2161d;
+    transition: 0.05s;
+    
+}
+    
+
+@media(max-width: 1059px) {
     .footer-nav {
         display: block;
     }
@@ -128,16 +149,17 @@ span{
     }
 
     .container{
-        width: 315px;
+        width: 400px;
+        height: 75px;
         
     }
 
     .Pai{
-        margin-top: 35%;
+        margin-top: 10%;
+        width: 100%;
     }
 
 }
-
 
    
 
